@@ -1,4 +1,6 @@
+let firstName = document.getElementsByName("fname");
+let lastName = document.getElementsByName("lname");
 function getFormvalue() {
-    //Write your code here
+    alert(firstName + " "+lastName)
 
 }
